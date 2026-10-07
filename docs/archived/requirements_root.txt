@@ -1,0 +1,12 @@
+# ==========================================
+# ROOT REQUIREMENTS (Use backend/requirements.txt instead)
+# ==========================================
+# 
+# This file is deprecated. Please use:
+#   cd backend
+#   pip install -r requirements.txt
+#
+# Or simply run: RUN_PROJECT.bat
+# ==========================================
+
+# For reference only - actual requirements in backend/requirements.txt

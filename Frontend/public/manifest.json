@@ -1,0 +1,65 @@
+{
+  "name": "Agri-Smart Precision Platform",
+  "short_name": "AgriSmart",
+  "description": "AI-Driven Crop Recommendation and Growth Prediction System Using Soil Fertility and Climate Intelligence",
+  "theme_color": "#2E7D32",
+  "background_color": "#F1F8E9",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "agriculture",
+    "productivity",
+    "utilities"
+  ],
+  "shortcuts": [
+    {
+      "name": "Crop Recommendation",
+      "short_name": "Crops",
+      "description": "Get instant crop recommendations",
+      "url": "/crop-recommendation",
+      "icons": [
+        {
+          "src": "logo192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Weather Forecast",
+      "short_name": "Weather",
+      "description": "Check weather conditions",
+      "url": "/weather",
+      "icons": [
+        {
+          "src": "logo192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "lang": "en-US",
+  "dir": "ltr"
+}

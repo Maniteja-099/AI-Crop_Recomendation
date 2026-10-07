@@ -1,0 +1,162 @@
+# ==========================================
+# PROJECT: Agri-Smart Precision Platform
+# ==========================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.venv/
+.venv-*/
+.venv*/
+venv/
+ENV/
+env/
+
+# Backend specific
+backend/__pycache__/
+backend/api/__pycache__/
+backend/api/routes/__pycache__/
+backend/services/__pycache__/
+backend/models/__pycache__/
+backend/ml_models/__pycache__/
+*.log
+logs/
+uploads/
+backups/
+
+# Environment variables – cover every possible location
+# .env.example files are KEPT (they are blank templates, not secrets)
+.env
+.env.local
+.env.production
+.env.development
+.env.staging
+backend/.env
+Frontend/.env
+!.env.example
+!Frontend/.env.example
+# Never commit any secret key files
+*.secret
+*.key
+*.pem
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Frontend
+Frontend/node_modules/
+Frontend/build/
+Frontend/.pnp
+Frontend/.pnp.js
+Frontend/coverage/
+Frontend/.env
+Frontend/.env.local
+
+# Frontend root-level node_modules packages (accidentally extracted)
+# Ignore everything in Frontend/ except known source files/dirs
+Frontend/.bin/
+Frontend/.package-lock.json
+Frontend/.env.development.local
+Frontend/.env.test.local
+Frontend/.env.production.local
+Frontend/.env.example
+Frontend/npm-debug.log*
+Frontend/yarn-debug.log*
+Frontend/yarn-error.log*
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Documentation (keep source, ignore build artifacts)
+docs/_build/
+docs/.doctrees/
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+~*
+.~*
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# ML model files in models/ (use trained_models/ instead)
+backend/models/*.pkl
+
+# Temp cleanup files
+frontend_remove_list.txt
+frontend_remove_clean.txt
+
+# Unnecessary old files
+api.py
+backend_api.py
+src/app.py
+
+# Old batch files (keeping organized ones)
+START_APP.bat
+TEST_GUIDE.bat
+
+# Credentials, runtime logs, and caches excluded from publication
+.env*
+*.log*
+logs/
+log/
+__pycache__/
+.cache/
+cache/
+caches/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.npm/
+.parcel-cache/
+node_modules/
+*.pyc
+*.pyo
+*.p12
+*.pfx
+*.credentials
+credentials.json
+service-account*.json
+/backend/users.json
+/docs/deployment/GEMINI_AI_TECHNICAL_GUIDE.md
+/docs/project-reports/BACKEND_TEST_RESULTS.md
+/docs/project-reports/SYSTEM_TEST_REPORT.md

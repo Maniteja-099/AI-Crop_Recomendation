@@ -1,0 +1,13 @@
+Terminal 1: cd backend && python main_v2.py
+
+Terminal 2: cd Frontend && npm start
+
+# Windows
+cd e:\MiniProject
+START_APP.bat
+# Open: http://localhost:3000
+
+# Mac/Linux
+cd ~/MiniProject
+python3 backend/main_v2.py &
+cd Frontend && npm start
